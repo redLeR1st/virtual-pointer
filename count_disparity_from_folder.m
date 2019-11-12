@@ -1,4 +1,4 @@
-function count_disparity_from_folder( left, right, stereoParams,ut, bs, range, lower, upper)
+function count_disparity_from_folder( left, right, stereoParams, ut, bs, range, lower, upper)
     files_left = {};
     files = dir(strcat(left , '*.png'));
     for file = files'
