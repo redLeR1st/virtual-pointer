@@ -98,11 +98,7 @@ function [Z, A, disparityMap, I1_r] = ext_plane(i1, i2, stereoParams, ut, bs, ra
     on_projector_X = round(point(1))
     on_projector_Y = round(point(2))
     
-    I2_r(on_projector_X,on_projector_Y, 1) = 255;
-    I2_r(on_projector_X,on_projector_Y, 2) = 0;
-    I2_r(on_projector_X,on_projector_Y, 3) = 0;
-    figure;
-    imshow(I2_r);
+    I(on_projector_X,on_projector_Y, ) =
     
     
 end
